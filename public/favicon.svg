@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E1813" />
+      <stop offset="100%" stop-color="#0E0B09" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FCE79C" />
+      <stop offset="50%" stop-color="#E5B558" />
+      <stop offset="100%" stop-color="#B37D1E" />
+    </linearGradient>
+    <radialGradient id="glow" cx="32" cy="24" r="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E5B558" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#E5B558" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Rounded Badge Background -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="2.5" />
+
+  <!-- Subtle Inner Glow -->
+  <circle cx="32" cy="24" r="22" fill="url(#glow)" />
+
+  <!-- Guiding Star / Cross above the Open Bible -->
+  <path d="M32 9L34.2 15.8L41 18L34.2 20.2L32 27L29.8 20.2L23 18L29.8 15.8L32 9Z" fill="url(#goldGrad)" />
+
+  <!-- Light Rays -->
+  <path d="M21 12L24 15M43 12L40 15" stroke="url(#goldGrad)" stroke-width="1.8" stroke-linecap="round" opacity="0.8" />
+
+  <!-- Open Bible Pages -->
+  <path d="M12 30C12 28.8954 12.8954 28 14 28H26C29.3137 28 32 30.6863 32 34V50C32 47.7909 29.7614 46 27 46H14C12.8954 46 12 45.1046 12 44V30Z" fill="#FAF3E3" stroke="url(#goldGrad)" stroke-width="2" stroke-linejoin="round" />
+  <path d="M52 30C52 28.8954 51.1046 28 50 28H38C34.6863 28 32 30.6863 32 34V50C32 47.7909 34.2386 46 37 46H50C51.1046 46 52 45.1046 52 44V30Z" fill="#FAF3E3" stroke="url(#goldGrad)" stroke-width="2" stroke-linejoin="round" />
+
+  <!-- Bible Spine / Cover Base -->
+  <path d="M10 49C16 49 25 49.5 32 53C39 49.5 48 49 54 49" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Scripture Lines on Left & Right Pages -->
+  <path d="M17 34H26M17 38H26M17 42H23" stroke="#8C6218" stroke-width="1.8" stroke-linecap="round" />
+  <path d="M38 34H47M38 38H47M41 42H47" stroke="#8C6218" stroke-width="1.8" stroke-linecap="round" />
+
+  <!-- Golden Bookmark Ribbon -->
+  <path d="M32 50V56L29.5 54L32 50Z" fill="#E5B558" />
+</svg>
